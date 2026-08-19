@@ -1,5 +1,7 @@
-#Crie um programa que permita fazer a conversão cambial entre Dólares e Reais. Considere como taxa de câmbio US$ 1,00 = R$5,27. Leia um valor em Dólares pelo teclado e mostre o correspondente em Reais.
-d = float(input())
-r = 5.27
-c = d * r
-print(f'{c:.2f}')
+#Faça um programa que, a partir das medidas dos lados de um retângulo, lidos via teclado, calcule a área e o perímetro deste retângulo.
+b = float(input())
+h = float(input())
+a = b * h
+p = 2 * (b + h)
+print(f'{a:.2f}')
+print(f'{p:.2f}')
