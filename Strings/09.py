@@ -1,0 +1,5 @@
+S = str(input())
+C = str(input())
+I = int(input())
+search = S.find(C, I)
+print(search)
